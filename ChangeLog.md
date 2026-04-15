@@ -1,3 +1,8 @@
+## 15.6.0 - May 2026
+#### Az.StackHCI 2.7.0
+* Updated preannouncement breaking changes date to May 2026.
+* Optimized cluster registration, significantly reducing registration time on large clusters.
+
 ## 15.5.0 - April 2026
 #### Az.Accounts 5.3.4
 * Improved SSH certificate authentication for Az SSH cmdlets across all Azure clouds.

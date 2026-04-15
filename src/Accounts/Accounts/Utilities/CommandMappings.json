@@ -462,13 +462,16 @@
       "Get-AzAppConfigurationKey": {},
       "Get-AzAppConfigurationKeyValue": {},
       "Get-AzAppConfigurationLabel": {},
+      "Get-AzAppConfigurationReplica": {},
       "Get-AzAppConfigurationRevision": {},
       "Get-AzAppConfigurationStore": {},
       "Get-AzAppConfigurationStoreKey": {},
+      "New-AzAppConfigurationReplica": {},
       "New-AzAppConfigurationStore": {},
       "New-AzAppConfigurationStoreKey": {},
       "Remove-AzAppConfigurationKeyValue": {},
       "Remove-AzAppConfigurationLock": {},
+      "Remove-AzAppConfigurationReplica": {},
       "Remove-AzAppConfigurationStore": {},
       "Set-AzAppConfigurationKeyValue": {},
       "Set-AzAppConfigurationLock": {},
@@ -6272,6 +6275,12 @@
     "Az.Pinecone": {
       "Get-AzPineconeOrganization": {}
     },
+    "Az.PlanetaryComputer": {
+      "Get-AzPlanetaryComputerGeoCatalog": {},
+      "New-AzPlanetaryComputerGeoCatalog": {},
+      "Remove-AzPlanetaryComputerGeoCatalog": {},
+      "Update-AzPlanetaryComputerGeoCatalog": {}
+    },
     "Az.PolicyInsights": {
       "Get-AzPolicyAttestation": {},
       "Get-AzPolicyEvent": {},
@@ -6964,6 +6973,7 @@
       "Get-AzTenantDeploymentWhatIfResult": {},
       "Invoke-AzResourceAction": {},
       "Move-AzResource": {},
+      "New-AzDenyAssignment": {},
       "New-AzDeployment": {},
       "New-AzManagedApplication": {},
       "New-AzManagedApplicationDefinition": {},
@@ -6991,6 +7001,7 @@
       "Register-AzResourceProvider": {},
       "Remove-AzDeployment": {},
       "Remove-AzDeploymentScript": {},
+      "Remove-AzDenyAssignment": {},
       "Remove-AzManagedApplication": {},
       "Remove-AzManagedApplicationDefinition": {},
       "Remove-AzManagementGroup": {},
