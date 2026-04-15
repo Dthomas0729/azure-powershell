@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '15.5.0'
+ModuleVersion = '15.6.0'
 
 # Supported PSEditions
 CompatiblePSEditions = 'Core', 'Desktop'
@@ -199,6 +199,7 @@ RequiredModules = @(@{ModuleName = 'Az.Accounts'; ModuleVersion = '5.3.4'; },
             @{ModuleName = 'Az.PaloAltoNetworks'; RequiredVersion = '0.4.0'; }, 
             @{ModuleName = 'Az.Peering'; RequiredVersion = '0.5.0'; }, 
             @{ModuleName = 'Az.Pinecone'; RequiredVersion = '0.1.0'; }, 
+            @{ModuleName = 'Az.PlanetaryComputer'; RequiredVersion = '0.1.0'; }, 
             @{ModuleName = 'Az.PolicyInsights'; RequiredVersion = '1.7.3'; }, 
             @{ModuleName = 'Az.Portal'; RequiredVersion = '0.4.0'; }, 
             @{ModuleName = 'Az.PostgreSql'; RequiredVersion = '1.4.0'; }, 
