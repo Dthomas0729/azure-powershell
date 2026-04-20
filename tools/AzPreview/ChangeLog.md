@@ -1,3 +1,65 @@
+## 15.6.0 - May 2026
+#### Az.AppConfiguration 2.1.0
+* Upgraded API version from 2022-05-01 to 2024-06-01
+* Added support for App Configuration store replicas
+    - Added 'New-AzAppConfigurationReplica' cmdlet
+    - Added 'Get-AzAppConfigurationReplica' cmdlet
+    - Added 'Remove-AzAppConfigurationReplica' cmdlet
+* Added 'DataPlaneProxyAuthenticationMode', 'DataPlaneProxyPrivateLinkDelegation', and 'DefaultKeyValueRevisionRetentionPeriodInSecond' parameters to 'New-AzAppConfigurationStore' and 'Update-AzAppConfigurationStore'
+* Removed 'SoftDeleteRetentionInDay' parameter from 'Update-AzAppConfigurationStore' as it is a create-only property
+
+#### Az.Compute 11.5.0
+* Added '-Feature' parameter to 'Update-AzGalleryImageDefinition' cmdlet to allow updating existing gallery image features (such as DiskControllerTypes, SecurityType, IsAcceleratedNetwork, and IsHibernate). Each feature supports a 'StartsAtVersion' property to specify the minimum gallery image version that supports the updated feature.
+* Added '-AllowUpdateImage' parameter to 'Update-AzGalleryImageDefinition' cmdlet. Must be set to true when using the '-Feature' parameter to update gallery image features.
+
+#### Az.DesktopVirtualization 5.4.7
+* Added preannouncement for breaking changes in Az.DesktopVirtualization 6.0.0
+    - The parameter 'Tag' will be removed from the Update cmdlet of Application.
+    - The parameter 'Tag' will be removed from the Update cmdlet of Desktop.
+
+#### Az.Network 7.27.0
+* Added support to associate a DDoS custom policy with a Load Balancer frontend IP configuration.
+    - Added the '-DdosCustomPolicyId' parameter to 'New-AzLoadBalancerFrontendIpConfig', 'Add-AzLoadBalancerFrontendIpConfig', and 'Set-AzLoadBalancerFrontendIpConfig'.
+    - Added the '-RemoveDdosCustomPolicy' switch to 'Set-AzLoadBalancerFrontendIpConfig'.
+
+#### Az.PlanetaryComputer 0.1.0
+* First preview release for module Az.PlanetaryComputer
+
+#### Az.PolicyInsights 1.7.4
+* Added Breaking Change notifications to many of the cmdlets in Az.PolicyInsights.
+
+#### Az.PostgreSql 1.4.1
+* 'Az.PostgreSql' will be retired in an upcoming release.
+    - To continue managing Azure Database for PostgreSQL resources, move to 'Az.PostgreSqlFlexibleServer'.
+    - When the replacement module is released, it will be available to install from https://www.powershellgallery.com/packages/Az.PostgreSqlFlexibleServer
+
+#### Az.ResourceMover 1.3.2
+* Updated preannouncement breaking changes date to May 2026.
+
+#### Az.Resources 9.1.0
+* Added '-PrincipalId' and '-PrincipalType' parameters to 'New-AzDenyAssignment' to support per-principal deny assignments targeting a specific User or ServicePrincipal, in addition to the existing Everyone mode.
+* Added 'New-AzDenyAssignment' cmdlet for creating user-assigned deny assignments using the '2024-07-01-preview' API. Deny assignments allow denying specific write, delete, and action operations to all principals at a given scope while excluding specified principals.
+* Added 'Remove-AzDenyAssignment' cmdlet for removing user-assigned deny assignments by ID, name and scope, or pipeline input.
+* Regenerated Authorization Management SDK from '2024-07-01-preview' swagger specification to include deny assignment create and delete operations.
+
+#### Az.SecurityInsights 3.2.2
+* Updated preannouncement breaking changes date to May 2026.
+
+#### Az.Sftp 0.1.3
+* Fixed command injection vulnerability in file permission handling [Security]
+    - Replaced 'powershell.exe' and 'icacls.exe' subprocess calls with direct .NET ACL APIs on Windows
+    - Replaced 'chmod' subprocess call with native P/Invoke on Unix
+    - Canonicalized file paths in SSH key generation methods to prevent path traversal
+
+#### Az.Sql 6.4.2
+* Fixed error handling in Az.Sql cmdlets that inherit from 'AzureSqlCmdletBase' to surface descriptive error messages instead of generic 'Operation returned an invalid status code' when API calls fail. This restores meaningful error details such as Azure Policy violation messages.
+
+#### Az.StackHCI 2.7.1
+* Fixed single node registration scenario.
+
+#### Az.Websites 3.4.3
+* Updated preannouncement breaking changes date to May 2026. 
+
 ## 15.5.0 - April 2026
 #### Az.Accounts 5.3.4
 * Improved SSH certificate authentication for Az SSH cmdlets across all Azure clouds.
