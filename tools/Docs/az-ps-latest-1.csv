@@ -9,7 +9,7 @@ pac7,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-releas
 pac8,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ApiManagement.4.1.0.zip;sourceType=sa]Az.ApiManagement,4.1.0
 pac9,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.App.2.0.1.zip;sourceType=sa]Az.App,2.0.1
 pac10,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.AppComplianceAutomation.0.1.4.zip;sourceType=sa]Az.AppComplianceAutomation,0.1.4
-pac11,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.AppConfiguration.2.0.1.zip;sourceType=sa]Az.AppConfiguration,2.0.1
+pac11,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.AppConfiguration.2.1.0.zip;sourceType=sa]Az.AppConfiguration,2.1.0
 pac12,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ApplicationInsights.3.0.0.zip;sourceType=sa]Az.ApplicationInsights,3.0.0
 pac13,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ArcGateway.0.1.2.zip;sourceType=sa]Az.ArcGateway,0.1.2
 pac14,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ArcResourceBridge.2.0.0.zip;sourceType=sa]Az.ArcResourceBridge,2.0.0
@@ -33,7 +33,7 @@ pac31,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-relea
 pac32,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.CloudService.2.1.2.zip;sourceType=sa]Az.CloudService,2.1.2
 pac33,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.CognitiveServices.1.16.0.zip;sourceType=sa]Az.CognitiveServices,1.16.0
 pac34,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.Communication.0.6.0.zip;sourceType=sa]Az.Communication,0.6.0
-pac35,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.Compute.11.4.0.zip;sourceType=sa]Az.Compute,11.4.0
+pac35,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.Compute.11.5.0.zip;sourceType=sa]Az.Compute,11.5.0
 pac36,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ComputeFleet.0.1.1.zip;sourceType=sa]Az.ComputeFleet,0.1.1
 pac37,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ComputeLimit.0.1.0.zip;sourceType=sa]Az.ComputeLimit,0.1.0
 pac38,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.ComputeSchedule.0.1.1.zip;sourceType=sa]Az.ComputeSchedule,0.1.1
@@ -63,7 +63,7 @@ pac61,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-relea
 pac62,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DataTransfer.1.0.0.zip;sourceType=sa]Az.DataTransfer,1.0.0
 pac63,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DedicatedHsm.0.4.0.zip;sourceType=sa]Az.DedicatedHsm,0.4.0
 pac64,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DependencyMap.0.1.0.zip;sourceType=sa]Az.DependencyMap,0.1.0
-pac65,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DesktopVirtualization.5.4.1.zip;sourceType=sa]Az.DesktopVirtualization,5.4.1
+pac65,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DesktopVirtualization.5.4.7.zip;sourceType=sa]Az.DesktopVirtualization,5.4.7
 pac66,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DevCenter.3.0.0.zip;sourceType=sa]Az.DevCenter,3.0.0
 pac67,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DeviceProvisioningServices.0.10.4.zip;sourceType=sa]Az.DeviceProvisioningServices,0.10.4
 pac68,[ps=true;customSource=https://azpspackage.blob.core.windows.net/docs-release/Az.DeviceRegistry.1.0.0.zip;sourceType=sa]Az.DeviceRegistry,1.0.0
