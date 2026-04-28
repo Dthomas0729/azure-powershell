@@ -1,3 +1,107 @@
+## 15.6.0 - May 2026
+#### Az.Accounts 5.4.0
+* Updated the 'System.Memory' dependency to v4.6.3 to support the Storage SDK update.
+* Added 'AzureAppConfigurationEndpointSuffix' and 'AzureAppConfigurationEndpointResourceId' parameters to 'Add-AzEnvironment' and 'Set-AzEnvironment'
+    - Users can now configure Azure App Configuration endpoints when adding or updating custom environments
+
+#### Az.Aks 7.1.2
+* Set 'useAADAuth' to 'true' by default in the omsagent addon profile when enabling the Monitoring addon via 'Enable-AzAksAddOn' and 'New-AzAksCluster'
+    - This ensures compatibility with the latest Azure Monitor agent which requires AAD authentication
+
+#### Az.AppConfiguration 2.1.0
+* Upgraded API version from 2022-05-01 to 2024-06-01
+* Added support for App Configuration store replicas
+    - Added 'New-AzAppConfigurationReplica' cmdlet
+    - Added 'Get-AzAppConfigurationReplica' cmdlet
+    - Added 'Remove-AzAppConfigurationReplica' cmdlet
+* Added 'DataPlaneProxyAuthenticationMode', 'DataPlaneProxyPrivateLinkDelegation', and 'DefaultKeyValueRevisionRetentionPeriodInSecond' parameters to 'New-AzAppConfigurationStore' and 'Update-AzAppConfigurationStore'
+* Removed 'SoftDeleteRetentionInDay' parameter from 'Update-AzAppConfigurationStore' as it is a create-only property
+* Added data plane snapshot cmdlets for Azure App Configuration
+    - Added 'New-AzAppConfigurationSnapshot' cmdlet to create snapshots
+    - Added 'Get-AzAppConfigurationSnapshot' cmdlet to retrieve snapshots
+    - Added 'Update-AzAppConfigurationSnapshot' cmdlet to archive or recover snapshots
+    - Added 'Test-AzAppConfigurationSnapshot' cmdlet to check if a snapshot exists
+* Added 'Snapshot' parameter to 'Get-AzAppConfigurationKeyValue' to support retrieving key-values by snapshot name
+* Added 'Get-AzAppConfigurationOperationDetail' cmdlet to retrieve data plane operation details
+
+#### Az.Cdn 6.0.2
+* Announced upcoming breaking changes for all 'Az*CdnEdgeAction*' cmdlets and the 'SubjectAlternativeName' parameter of 'New-AzCdnSecretCustomerCertificateParametersObject', which will be removed in a future release.
+
+#### Az.Compute 11.5.0
+* Added '-Feature' parameter to 'Update-AzGalleryImageDefinition' cmdlet to allow updating existing gallery image features (such as DiskControllerTypes, SecurityType, IsAcceleratedNetwork, and IsHibernate). Each feature supports a 'StartsAtVersion' property to specify the minimum gallery image version that supports the updated feature.
+* Added '-AllowUpdateImage' parameter to 'Update-AzGalleryImageDefinition' cmdlet. Must be set to true when using the '-Feature' parameter to update gallery image features.
+* Added managed identity support for Azure Compute Galleries
+    - 'New-AzGallery': Added '-EnableSystemAssignedIdentity' and '-UserAssignedIdentity' parameters to assign managed identities at creation time
+    - 'Update-AzGallery': Added '-EnableSystemAssignedIdentity' and '-UserAssignedIdentity' parameters to add managed identities to an existing gallery. '-UserAssignedIdentity' appends to existing identities
+    - 'Update-AzGallery': Added '-DisableSystemAssignedIdentity' parameter to remove system-assigned managed identity
+    - 'Update-AzGallery': Added '-RemoveUserAssignedIdentity' parameter accepting a list of identity resource IDs to remove specific user-assigned identities, or 'All' to remove all user-assigned identities
+    - 'Get-AzGallery': Now returns managed identity details in the 'Identity' property
+* Compute ComputeRP related cmdlets will now use 2025-11-01 version of the ComputeRP API.
+
+#### Az.Databricks 1.11.1
+* Added breaking change announcement for 'Update-AzDatabricksVNetPeering': parameters 'AllowForwardedTraffic', 'AllowGatewayTransit', 'AllowVirtualNetworkAccess' and 'UseRemoteGateway' will change from Boolean to SwitchParameter
+
+#### Az.DesktopVirtualization 5.4.7
+* Added preannouncement for breaking changes in Az.DesktopVirtualization 6.0.0
+    - The parameter 'Tag' will be removed from the Update cmdlet of Application.
+    - The parameter 'Tag' will be removed from the Update cmdlet of Desktop.
+
+#### Az.DnsResolver 1.2.4
+* Fixed misleading breaking change warning on 'New-AzDnsResolverDomainList' that incorrectly stated the cmdlet was being deprecated
+    - The cmdlet displayed 'The cmdlet is being deprecated. There will be no replacement for it.' when the intent was only to announce that the 'Domain' parameter is no longer mandatory
+    - 'New-AzDnsResolverDomainList' are now able to create domain lists without domains.
+
+#### Az.Migrate 2.12.1
+* Fixed bugs in 'Initialize-AzMigrateLocalReplicationInfrastructure'
+  - Added early Azure login validation with a clear error message when user is not logged in
+  - Removed unnecessary caller identity resolution
+  - Added cache storage account validations to reject unsupported SKU tiers and disabled public network access
+* Updated 'New-AzMigrateLocalServerReplication'
+  - Added storage path health validation before initiating replication
+
+#### Az.Network 7.27.0
+* Added support to associate a DDoS custom policy with a Load Balancer frontend IP configuration.
+    - Added the '-DdosCustomPolicyId' parameter to 'New-AzLoadBalancerFrontendIpConfig', 'Add-AzLoadBalancerFrontendIpConfig', and 'Set-AzLoadBalancerFrontendIpConfig'.
+    - Added the '-RemoveDdosCustomPolicy' switch to 'Set-AzLoadBalancerFrontendIpConfig'.
+
+#### Az.PolicyInsights 1.7.4
+* Added Breaking Change notifications to many of the cmdlets in Az.PolicyInsights.
+
+#### Az.PostgreSql 1.4.1
+* 'Az.PostgreSql' will be retired in an upcoming release.
+    - To continue managing Azure Database for PostgreSQL resources, move to 'Az.PostgreSqlFlexibleServer'.
+    - When the replacement module is released, it will be available to install from https://www.powershellgallery.com/packages/Az.PostgreSqlFlexibleServer
+
+#### Az.ResourceMover 1.3.2
+* Updated preannouncement breaking changes date to May 2026.
+
+#### Az.Resources 9.1.0
+* Added '-PrincipalId' and '-PrincipalType' parameters to 'New-AzDenyAssignment' to support per-principal deny assignments targeting a specific User or ServicePrincipal, in addition to the existing Everyone mode.
+* Added 'New-AzDenyAssignment' cmdlet for creating user-assigned deny assignments using the '2024-07-01-preview' API. Deny assignments allow denying specific write, delete, and action operations to all principals at a given scope while excluding specified principals.
+* Added 'Remove-AzDenyAssignment' cmdlet for removing user-assigned deny assignments by ID, name and scope, or pipeline input.
+* Regenerated Authorization Management SDK from '2024-07-01-preview' swagger specification to include deny assignment create and delete operations.
+* Fixed 'New-AzDeployment' not reporting nested ARM (Azure Resource Manager) error details (e.g. 'KeyVaultParameterReferenceSecretRetrieveFailed') when a 'MultipleErrorsOccurred' validation failure is returned. Previously, the inner errors were silently dropped and only the generic top-level error was shown. [#28308]
+
+#### Az.SecurityInsights 3.2.2
+* Updated preannouncement breaking changes date to May 2026.
+
+#### Az.Sql 6.4.2
+* Fixed error handling in Az.Sql cmdlets that inherit from 'AzureSqlCmdletBase' to surface descriptive error messages instead of generic 'Operation returned an invalid status code' when API calls fail. This restores meaningful error details such as Azure Policy violation messages.
+
+#### Az.StackHCI 2.7.1
+* Fixed single node registration scenario.
+
+#### Az.Storage 9.6.1
+* Removed breaking change warnings for TLS 1.0 and TLS 1.1 deprecation
+    - 'New-AzStorageAccount'
+    - 'Set-AzStorageAccount'
+* Updated MinimumTlsVersion parameter description to note that TLS 1.3 is not yet supported
+    - 'New-AzStorageAccount'
+    - 'Set-AzStorageAccount'
+
+#### Az.Websites 3.4.3
+* Updated preannouncement breaking changes date to May 2026. 
+
 ## 15.5.0 - April 2026
 #### Az.Accounts 5.3.4
 * Improved SSH certificate authentication for Az SSH cmdlets across all Azure clouds.
