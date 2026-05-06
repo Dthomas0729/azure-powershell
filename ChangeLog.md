@@ -1,3 +1,15 @@
+## 16.0.0 - June 2026
+#### Az.Compute 11.6.0
+* Added '-InstantAccess' parameter to 'New-AzRestorePointCollection' cmdlet to enable instant access snapshots for restore points on Premium SSD v2 and Ultra disks
+* Added '-InstantAccess' parameter to 'Update-AzRestorePointCollection' cmdlet to enable or disable instant access on an existing restore point collection
+* Added '-InstantAccessDurationInMinutes' parameter to 'New-AzRestorePoint' cmdlet to specify the duration (1-300 minutes) for which the instant access snapshot is retained
+
+#### Az.Kusto 2.4.2
+* Preannounced breaking changes. Please refer to https://go.microsoft.com/fwlink/?linkid=2333229
+
+#### Az.Network 8.0.0
+* Updated 'UserAssignedIdentityId' parameter type from string to string[] in Azure Firewall Policy to input multiple UAMIs
+
 ## 15.6.0 - May 2026
 #### Az.Accounts 5.4.0
 * Updated the 'System.Memory' dependency to v4.6.3 to support the Storage SDK update.

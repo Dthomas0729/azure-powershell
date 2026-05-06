@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '15.6.0'
+ModuleVersion = '16.0.0'
 
 # Supported PSEditions
 CompatiblePSEditions = 'Core', 'Desktop'
@@ -87,7 +87,7 @@ RequiredModules = @(@{ModuleName = 'Az.Accounts'; ModuleVersion = '5.4.0'; },
             @{ModuleName = 'Az.CloudService'; RequiredVersion = '2.1.2'; }, 
             @{ModuleName = 'Az.CognitiveServices'; RequiredVersion = '1.16.0'; }, 
             @{ModuleName = 'Az.Communication'; RequiredVersion = '0.6.0'; }, 
-            @{ModuleName = 'Az.Compute'; RequiredVersion = '11.5.0'; }, 
+            @{ModuleName = 'Az.Compute'; RequiredVersion = '11.6.0'; }, 
             @{ModuleName = 'Az.ComputeFleet'; RequiredVersion = '0.1.1'; }, 
             @{ModuleName = 'Az.ComputeLimit'; RequiredVersion = '0.1.0'; }, 
             @{ModuleName = 'Az.ComputeSchedule'; RequiredVersion = '0.1.1'; }, 
@@ -162,7 +162,7 @@ RequiredModules = @(@{ModuleName = 'Az.Accounts'; ModuleVersion = '5.4.0'; },
             @{ModuleName = 'Az.KeyVault'; RequiredVersion = '6.4.3'; }, 
             @{ModuleName = 'Az.KubernetesConfiguration'; RequiredVersion = '0.8.0'; }, 
             @{ModuleName = 'Az.KubernetesRuntime'; RequiredVersion = '0.2.0'; }, 
-            @{ModuleName = 'Az.Kusto'; RequiredVersion = '2.4.0'; }, 
+            @{ModuleName = 'Az.Kusto'; RequiredVersion = '2.4.2'; }, 
             @{ModuleName = 'Az.LabServices'; RequiredVersion = '0.2.0'; }, 
             @{ModuleName = 'Az.LambdaTest'; RequiredVersion = '1.0.0'; }, 
             @{ModuleName = 'Az.LoadTesting'; RequiredVersion = '1.1.1'; }, 
@@ -186,7 +186,7 @@ RequiredModules = @(@{ModuleName = 'Az.Accounts'; ModuleVersion = '5.4.0'; },
             @{ModuleName = 'Az.MonitoringSolutions'; RequiredVersion = '0.2.0'; }, 
             @{ModuleName = 'Az.MySql'; RequiredVersion = '1.5.2'; }, 
             @{ModuleName = 'Az.NetAppFiles'; RequiredVersion = '1.2.0'; }, 
-            @{ModuleName = 'Az.Network'; RequiredVersion = '7.27.0'; }, 
+            @{ModuleName = 'Az.Network'; RequiredVersion = '8.0.0'; }, 
             @{ModuleName = 'Az.NetworkAnalytics'; RequiredVersion = '0.1.2'; }, 
             @{ModuleName = 'Az.NetworkCloud'; RequiredVersion = '2.0.0'; }, 
             @{ModuleName = 'Az.NetworkFunction'; RequiredVersion = '0.2.0'; }, 
