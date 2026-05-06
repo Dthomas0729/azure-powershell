@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '15.6.0'
+ModuleVersion = '16.0.0'
 
 # Supported PSEditions
 CompatiblePSEditions = 'Core', 'Desktop'
@@ -112,7 +112,7 @@ RequiredModules = @(@{ModuleName = 'Az.Accounts'; ModuleVersion = '5.4.0'; },
             @{ModuleName = 'Az.DataLakeAnalytics'; RequiredVersion = '1.1.0'; }, 
             @{ModuleName = 'Az.DataLakeStore'; RequiredVersion = '1.5.2'; }, 
             @{ModuleName = 'Az.DataMigration'; RequiredVersion = '1.0.0'; }, 
-            @{ModuleName = 'Az.DataProtection'; RequiredVersion = '2.10.0'; }, 
+            @{ModuleName = 'Az.DataProtection'; RequiredVersion = '2.10.1'; }, 
             @{ModuleName = 'Az.DataShare'; RequiredVersion = '1.1.1'; }, 
             @{ModuleName = 'Az.DataTransfer'; RequiredVersion = '1.0.0'; }, 
             @{ModuleName = 'Az.DedicatedHsm'; RequiredVersion = '0.4.0'; }, 
@@ -186,7 +186,7 @@ RequiredModules = @(@{ModuleName = 'Az.Accounts'; ModuleVersion = '5.4.0'; },
             @{ModuleName = 'Az.MonitoringSolutions'; RequiredVersion = '0.2.0'; }, 
             @{ModuleName = 'Az.MySql'; RequiredVersion = '1.5.2'; }, 
             @{ModuleName = 'Az.NetAppFiles'; RequiredVersion = '1.2.0'; }, 
-            @{ModuleName = 'Az.Network'; RequiredVersion = '7.27.0'; }, 
+            @{ModuleName = 'Az.Network'; RequiredVersion = '8.0.0'; }, 
             @{ModuleName = 'Az.NetworkAnalytics'; RequiredVersion = '0.1.2'; }, 
             @{ModuleName = 'Az.NetworkCloud'; RequiredVersion = '2.0.0'; }, 
             @{ModuleName = 'Az.NetworkFunction'; RequiredVersion = '0.2.0'; }, 
