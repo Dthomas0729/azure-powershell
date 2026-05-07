@@ -1,3 +1,37 @@
+## 16.0.0 - June 2026
+#### Az.Compute 11.6.0
+* Added '-InstantAccess' parameter to 'New-AzRestorePointCollection' cmdlet to enable instant access snapshots for restore points on Premium SSD v2 and Ultra disks
+* Added '-InstantAccess' parameter to 'Update-AzRestorePointCollection' cmdlet to enable or disable instant access on an existing restore point collection
+* Added '-InstantAccessDurationInMinutes' parameter to 'New-AzRestorePoint' cmdlet to specify the duration (1-300 minutes) for which the instant access snapshot is retained
+
+#### Az.DataProtection 2.10.1
+* Fixed non-ASCII U+2013 characters failed module import in WindowsPowerShell
+
+#### Az.FileShare 1.0.0
+* General availability for module Az.FileShare
+
+#### Az.FrontDoor 2.2.0
+* Upgraded API version to 2025-11-01.
+* Hid newly introduced 'NetworkExperimentProfile', 'Experiment', 'PreconfiguredEndpoint', 'ReportLatencyScorecard', and 'ReportTimesery' cmdlets that are not part of the public Az.FrontDoor surface area.
+* Fixed 'New-AzFrontDoorWafPolicy' / 'Remove-AzFrontDoorWafPolicy' failing with 'UriFormatException: Invalid URI: The URI is empty.' by rewriting the long-running-operation 'final-state-via' from 'location' to 'original-uri' on WAF 'Policies_CreateOrUpdate' and 'Policies_Delete' (the service returns the terminal state synchronously and does not emit a 'Location' header).
+
+#### Az.Kusto 2.4.2
+* Preannounced breaking changes. Please refer to https://go.microsoft.com/fwlink/?linkid=2333229
+
+#### Az.Monitor 8.0.0
+* Upgraded Azure Monitor Pipelines API version from 2024-10-01-preview to GA version 2026-04-01
+    - Added 'DistributionMaxInstancesPerHost' parameter to control maximum instances per compute unit
+    - Added 'ExecutionPlacementConstraint' parameter to guide where pipeline group instances should run
+    - Added 'TlsConfiguration' parameter to configure TLS (Transport Layer Security) settings for pipeline group receivers
+    - Removed 'NetworkingConfiguration' parameter from 'New-AzPipelineGroup' and 'Update-AzPipelineGroup'
+    - Removed UDP receiver type support from pipeline group receivers
+    - Removed public properties/parameters 'TcpUrl', 'JsonArrayMapperKey', 'SourceFieldName', and 'SyslogProtocol'
+    - Removed 'DestinationField*' public properties/parameters
+    - Expanded parameter sets for the updated pipeline-related cmdlets, which may require script changes when upgrading
+
+#### Az.Network 8.0.0
+* Updated 'UserAssignedIdentityId' parameter type from string to string[] in Azure Firewall Policy to input multiple UAMIs
+
 ## 15.6.1 - May 2026
 #### Az.DataProtection 2.10.1
 * Fixed non-ASCII U+2013 characters failed module import in WindowsPowerShell
