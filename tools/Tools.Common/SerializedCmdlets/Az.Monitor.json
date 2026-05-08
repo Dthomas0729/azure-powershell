@@ -1,6 +1,6 @@
 {
   "ModuleName": "Az.Monitor",
-  "ModuleVersion": "7.0.0",
+  "ModuleVersion": "8.0.0",
   "Cmdlets": [
     {
       "VerbName": "Add",
@@ -16,7 +16,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "RetentionPolicy": "Microsoft.Azure.Management.Monitor.Models.RetentionPolicy",
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
@@ -338,7 +338,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAddAlertRuleOperationResponse",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAddAlertRuleOperationResponse, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAddAlertRuleOperationResponse, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "AlertRule": "Microsoft.Azure.Management.Monitor.Management.Models.AlertRuleResource",
               "StatusCode": "System.Net.HttpStatusCode",
@@ -394,7 +394,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
             "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ConditionOperator",
-            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ConditionOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ConditionOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
           },
           "ValidateNotNullOrEmpty": false
         },
@@ -430,7 +430,7 @@
           "Type": {
             "Namespace": "System",
             "Name": "System.Nullable`1[Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator]",
-            "AssemblyQualifiedName": "System.Nullable`1[[Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "AssemblyQualifiedName": "System.Nullable`1[[Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
             "GenericTypeArguments": [
               "Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator"
             ]
@@ -490,7 +490,7 @@
           "Type": {
             "Namespace": "System.Collections.Generic",
             "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction]",
-            "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
             "GenericTypeArguments": [
               "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction"
             ]
@@ -555,7 +555,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
                   "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ConditionOperator",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ConditionOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ConditionOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -615,7 +615,7 @@
                 "Type": {
                   "Namespace": "System",
                   "Name": "System.Nullable`1[Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator]",
-                  "AssemblyQualifiedName": "System.Nullable`1[[Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                  "AssemblyQualifiedName": "System.Nullable`1[[Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
                   "GenericTypeArguments": [
                     "Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator"
                   ]
@@ -711,7 +711,7 @@
                 "Type": {
                   "Namespace": "System.Collections.Generic",
                   "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction]",
-                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
                   "GenericTypeArguments": [
                     "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction"
                   ]
@@ -785,7 +785,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Actions": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
               "Criteria": "Microsoft.Azure.Management.Monitor.Models.MetricAlertCriteria",
@@ -945,7 +945,7 @@
           "Type": {
             "Namespace": "System.Collections.Generic",
             "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria]",
-            "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
             "GenericTypeArguments": [
               "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria"
             ]
@@ -969,7 +969,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
             "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup"
           },
           "ValidateNotNullOrEmpty": false
@@ -1123,7 +1123,7 @@
                 "Type": {
                   "Namespace": "System.Collections.Generic",
                   "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria]",
-                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
                   "GenericTypeArguments": [
                     "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria"
                   ]
@@ -1159,7 +1159,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
                   "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -1369,7 +1369,7 @@
                 "Type": {
                   "Namespace": "System.Collections.Generic",
                   "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria]",
-                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
                   "GenericTypeArguments": [
                     "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria"
                   ]
@@ -1405,7 +1405,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
                   "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -1649,7 +1649,7 @@
                 "Type": {
                   "Namespace": "System.Collections.Generic",
                   "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria]",
-                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
                   "GenericTypeArguments": [
                     "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria"
                   ]
@@ -1685,7 +1685,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
                   "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -1818,7 +1818,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAddAlertRuleOperationResponse",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAddAlertRuleOperationResponse, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAddAlertRuleOperationResponse, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "AlertRule": "Microsoft.Azure.Management.Monitor.Management.Models.AlertRuleResource",
               "StatusCode": "System.Net.HttpStatusCode",
@@ -1958,7 +1958,7 @@
           "Type": {
             "Namespace": "System.Collections.Generic",
             "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction]",
-            "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
             "GenericTypeArguments": [
               "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction"
             ]
@@ -2161,7 +2161,7 @@
                 "Type": {
                   "Namespace": "System.Collections.Generic",
                   "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction]",
-                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                  "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
                   "GenericTypeArguments": [
                     "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction"
                   ]
@@ -2235,7 +2235,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Claims": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement",
               "Properties": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement",
@@ -3248,7 +3248,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Claims": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement",
               "Properties": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement",
@@ -3576,7 +3576,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAlertRule",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAlertRule, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSAlertRule, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Condition": "Microsoft.Azure.Management.Monitor.Management.Models.RuleCondition",
               "Action": "Microsoft.Azure.Management.Monitor.Models.RuleAction",
@@ -4054,7 +4054,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventData, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Claims": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement",
               "Properties": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement",
@@ -4382,7 +4382,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -4793,7 +4793,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScopedResource",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScopedResource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScopedResource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Id": "System.String",
               "Name": "System.String",
@@ -4900,7 +4900,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -5064,7 +5064,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
                     "Id": "System.String",
@@ -5256,7 +5256,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfileCollection",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfileCollection, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfileCollection, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Item": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile",
               "Count": "System.Int32",
@@ -5971,7 +5971,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetric",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetric, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetric, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Name": "Microsoft.Azure.Management.Monitor.Models.LocalizableString",
               "Data": "System.Collections.Generic.IList`1[Microsoft.Azure.Management.Monitor.Models.MetricValue]",
@@ -6734,7 +6734,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Actions": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
               "Criteria": "Microsoft.Azure.Management.Monitor.Models.MetricAlertCriteria",
@@ -7146,7 +7146,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDefinition",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDefinition, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDefinition, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Name": "Microsoft.Azure.Management.Monitor.Models.LocalizableString",
               "Dimensions": "System.Collections.Generic.IList`1[Microsoft.Azure.Management.Monitor.Models.LocalizableString]",
@@ -7405,7 +7405,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
             "Name": "Microsoft.Azure.Management.Monitor.Management.Models.RuleEmailAction",
-            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleEmailAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleEmailAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "CustomEmails": "System.Collections.Generic.IList`1[System.String]",
               "SendToServiceOwners": "System.Nullable`1[System.Boolean]"
@@ -7604,7 +7604,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
             "Name": "Microsoft.Azure.Management.Monitor.Management.Models.RuleWebhookAction",
-            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleWebhookAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleWebhookAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Properties": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "ServiceUri": "System.String"
@@ -7801,7 +7801,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -8156,7 +8156,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScopedResource",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScopedResource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScopedResource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Id": "System.String",
               "Name": "System.String",
@@ -8263,7 +8263,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -8506,7 +8506,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
                     "Id": "System.String",
@@ -8600,7 +8600,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricCriteria",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "CriterionType": "Microsoft.Azure.Commands.Insights.OutputClasses.CriterionType",
               "AdditionalProperties": "System.Collections.Generic.IDictionary`2[System.String,System.Object]",
@@ -8661,7 +8661,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDynamicMetricCriteria",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDynamicMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDynamicMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "CriterionType": "Microsoft.Azure.Commands.Insights.OutputClasses.CriterionType",
               "FailingPeriods": "Microsoft.Azure.Management.Monitor.Models.DynamicThresholdFailingPeriods",
@@ -8772,7 +8772,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension"
           },
           "ValidateNotNullOrEmpty": false
@@ -8987,7 +8987,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -9313,7 +9313,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -9479,7 +9479,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "IncludeValues": "System.Collections.Generic.IList`1[System.String]",
               "ExcludeValues": "System.Collections.Generic.IList`1[System.String]",
@@ -10302,7 +10302,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -10500,7 +10500,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
                     "Id": "System.String",
@@ -10677,7 +10677,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -10841,7 +10841,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
                     "Id": "System.String",
@@ -11267,7 +11267,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Actions": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
               "Criteria": "Microsoft.Azure.Management.Monitor.Models.MetricAlertCriteria",
@@ -11564,7 +11564,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricAlertRuleV2, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Actions": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
                     "Criteria": "Microsoft.Azure.Management.Monitor.Models.MetricAlertCriteria",
@@ -11767,7 +11767,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -11859,7 +11859,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
             "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
               "Id": "System.String",
@@ -12022,7 +12022,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
                   "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope",
-                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMonitorPrivateLinkScope, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
                     "Id": "System.String",
@@ -24302,13 +24302,15 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Exporter": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter]",
-              "NetworkingConfiguration": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration]",
               "ServicePipeline": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline]",
+              "ExecutionPlacementConstraint": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint]",
               "Processor": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor]",
               "Receiver": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver]",
+              "TlsConfiguration": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration]",
+              "DistributionMaxInstancesPerHost": "System.Nullable`1[System.Int32]",
               "Replica": "System.Nullable`1[System.Int32]",
               "ExtendedLocationName": "System.String",
               "ExtendedLocationType": "System.String",
@@ -24358,7 +24360,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Id": "System.String",
               "PipelineGroupName": "System.String",
@@ -24396,7 +24398,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -24406,7 +24408,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -24544,7 +24546,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -24560,7 +24562,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -24709,7 +24711,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -24725,7 +24727,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -24859,7 +24861,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -24875,7 +24877,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -24959,7 +24961,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Id": "System.String",
                     "PipelineGroupName": "System.String",
@@ -25015,7 +25017,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -25031,7 +25033,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -25149,7 +25151,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -25165,7 +25167,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -44650,13 +44652,15 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Exporter": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter]",
-              "NetworkingConfiguration": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration]",
               "ServicePipeline": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline]",
+              "ExecutionPlacementConstraint": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint]",
               "Processor": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor]",
               "Receiver": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver]",
+              "TlsConfiguration": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration]",
+              "DistributionMaxInstancesPerHost": "System.Nullable`1[System.Int32]",
               "Replica": "System.Nullable`1[System.Int32]",
               "ExtendedLocationName": "System.String",
               "ExtendedLocationType": "System.String",
@@ -44710,11 +44714,30 @@
           "ValidateNotNullOrEmpty": false
         },
         {
+          "Name": "DistributionMaxInstancesPerHost",
+          "Type": {
+            "Namespace": "System",
+            "Name": "System.Int32",
+            "AssemblyQualifiedName": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+          },
+          "ValidateNotNullOrEmpty": false
+        },
+        {
+          "Name": "ExecutionPlacementConstraint",
+          "Type": {
+            "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[]",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint"
+          },
+          "ValidateNotNullOrEmpty": false
+        },
+        {
           "Name": "Exporter",
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
           },
           "ValidateNotNullOrEmpty": false
@@ -44738,16 +44761,6 @@
           "ValidateNotNullOrEmpty": false
         },
         {
-          "Name": "NetworkingConfiguration",
-          "Type": {
-            "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration"
-          },
-          "ValidateNotNullOrEmpty": false
-        },
-        {
           "Name": "PersistencePersistentVolumeName",
           "Type": {
             "Namespace": "System",
@@ -44761,7 +44774,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor"
           },
           "ValidateNotNullOrEmpty": false
@@ -44771,7 +44784,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver"
           },
           "ValidateNotNullOrEmpty": false
@@ -44790,7 +44803,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline"
           },
           "ValidateNotNullOrEmpty": false
@@ -44801,6 +44814,16 @@
             "Namespace": "System.Collections",
             "Name": "System.Collections.Hashtable",
             "AssemblyQualifiedName": "System.Collections.Hashtable, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+          },
+          "ValidateNotNullOrEmpty": false
+        },
+        {
+          "Name": "TlsConfiguration",
+          "Type": {
+            "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[]",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration"
           },
           "ValidateNotNullOrEmpty": false
         },
@@ -44858,7 +44881,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -44868,7 +44891,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -45029,7 +45052,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45045,7 +45068,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45155,11 +45178,42 @@
             },
             {
               "ParameterMetadata": {
+                "Name": "DistributionMaxInstancesPerHost",
+                "Type": {
+                  "Namespace": "System",
+                  "Name": "System.Int32",
+                  "AssemblyQualifiedName": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+                },
+                "ValidateNotNullOrEmpty": false
+              },
+              "Mandatory": false,
+              "Position": -2147483648,
+              "ValueFromPipeline": false,
+              "ValueFromPipelineByPropertyName": false
+            },
+            {
+              "ParameterMetadata": {
+                "Name": "ExecutionPlacementConstraint",
+                "Type": {
+                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint"
+                },
+                "ValidateNotNullOrEmpty": false
+              },
+              "Mandatory": false,
+              "Position": -2147483648,
+              "ValueFromPipeline": false,
+              "ValueFromPipelineByPropertyName": false
+            },
+            {
+              "ParameterMetadata": {
                 "Name": "Exporter",
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45201,22 +45255,6 @@
             },
             {
               "ParameterMetadata": {
-                "Name": "NetworkingConfiguration",
-                "Type": {
-                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration"
-                },
-                "ValidateNotNullOrEmpty": false
-              },
-              "Mandatory": false,
-              "Position": -2147483648,
-              "ValueFromPipeline": false,
-              "ValueFromPipelineByPropertyName": false
-            },
-            {
-              "ParameterMetadata": {
                 "Name": "PersistencePersistentVolumeName",
                 "Type": {
                   "Namespace": "System",
@@ -45236,7 +45274,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45252,7 +45290,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45283,7 +45321,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45300,6 +45338,22 @@
                   "Namespace": "System.Collections",
                   "Name": "System.Collections.Hashtable",
                   "AssemblyQualifiedName": "System.Collections.Hashtable, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+                },
+                "ValidateNotNullOrEmpty": false
+              },
+              "Mandatory": false,
+              "Position": -2147483648,
+              "ValueFromPipeline": false,
+              "ValueFromPipelineByPropertyName": false
+            },
+            {
+              "ParameterMetadata": {
+                "Name": "TlsConfiguration",
+                "Type": {
+                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -45411,7 +45465,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45427,7 +45481,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45638,7 +45692,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45654,7 +45708,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45865,7 +45919,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -45881,7 +45935,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -56128,7 +56182,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Id": "System.String",
               "PipelineGroupName": "System.String",
@@ -56175,7 +56229,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -56185,7 +56239,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -56355,7 +56409,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -56371,7 +56425,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -56485,7 +56539,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Id": "System.String",
                     "PipelineGroupName": "System.String",
@@ -56556,7 +56610,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -56572,7 +56626,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -56735,7 +56789,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -56751,7 +56805,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -68605,13 +68659,15 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroup, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Exporter": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter]",
-              "NetworkingConfiguration": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration]",
               "ServicePipeline": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline]",
+              "ExecutionPlacementConstraint": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint]",
               "Processor": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor]",
               "Receiver": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver]",
+              "TlsConfiguration": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration]",
+              "DistributionMaxInstancesPerHost": "System.Nullable`1[System.Int32]",
               "Replica": "System.Nullable`1[System.Int32]",
               "ExtendedLocationName": "System.String",
               "ExtendedLocationType": "System.String",
@@ -68660,7 +68716,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "Properties": {
               "Id": "System.String",
               "PipelineGroupName": "System.String",
@@ -68672,22 +68728,31 @@
           "ValidateNotNullOrEmpty": false
         },
         {
-          "Name": "Exporter",
+          "Name": "DistributionMaxInstancesPerHost",
           "Type": {
-            "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
+            "Namespace": "System",
+            "Name": "System.Int32",
+            "AssemblyQualifiedName": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
           },
           "ValidateNotNullOrEmpty": false
         },
         {
-          "Name": "NetworkingConfiguration",
+          "Name": "ExecutionPlacementConstraint",
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration"
+            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[]",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint"
+          },
+          "ValidateNotNullOrEmpty": false
+        },
+        {
+          "Name": "Exporter",
+          "Type": {
+            "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
           },
           "ValidateNotNullOrEmpty": false
         },
@@ -68705,7 +68770,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor"
           },
           "ValidateNotNullOrEmpty": false
@@ -68715,7 +68780,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver"
           },
           "ValidateNotNullOrEmpty": false
@@ -68734,7 +68799,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline"
           },
           "ValidateNotNullOrEmpty": false
@@ -68745,6 +68810,16 @@
             "Namespace": "System.Collections",
             "Name": "System.Collections.Hashtable",
             "AssemblyQualifiedName": "System.Collections.Hashtable, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+          },
+          "ValidateNotNullOrEmpty": false
+        },
+        {
+          "Name": "TlsConfiguration",
+          "Type": {
+            "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+            "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[]",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration"
           },
           "ValidateNotNullOrEmpty": false
         },
@@ -68802,7 +68877,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -68812,7 +68887,7 @@
           "Type": {
             "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
             "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+            "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
             "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
           },
           "ValidateNotNullOrEmpty": false
@@ -68988,7 +69063,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69004,7 +69079,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69215,7 +69290,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69231,7 +69306,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69374,12 +69449,11 @@
             },
             {
               "ParameterMetadata": {
-                "Name": "Exporter",
+                "Name": "DistributionMaxInstancesPerHost",
                 "Type": {
-                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
+                  "Namespace": "System",
+                  "Name": "System.Int32",
+                  "AssemblyQualifiedName": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -69390,12 +69464,28 @@
             },
             {
               "ParameterMetadata": {
-                "Name": "NetworkingConfiguration",
+                "Name": "ExecutionPlacementConstraint",
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration"
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint"
+                },
+                "ValidateNotNullOrEmpty": false
+              },
+              "Mandatory": false,
+              "Position": -2147483648,
+              "ValueFromPipeline": false,
+              "ValueFromPipelineByPropertyName": false
+            },
+            {
+              "ParameterMetadata": {
+                "Name": "Exporter",
+                "Type": {
+                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -69425,7 +69515,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69441,7 +69531,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69472,7 +69562,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69489,6 +69579,22 @@
                   "Namespace": "System.Collections",
                   "Name": "System.Collections.Hashtable",
                   "AssemblyQualifiedName": "System.Collections.Hashtable, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+                },
+                "ValidateNotNullOrEmpty": false
+              },
+              "Mandatory": false,
+              "Position": -2147483648,
+              "ValueFromPipeline": false,
+              "ValueFromPipelineByPropertyName": false
+            },
+            {
+              "ParameterMetadata": {
+                "Name": "TlsConfiguration",
+                "Type": {
+                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -69552,7 +69658,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69568,7 +69674,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69667,7 +69773,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipelineGroupIdentity, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "Properties": {
                     "Id": "System.String",
                     "PipelineGroupName": "System.String",
@@ -69685,12 +69791,11 @@
             },
             {
               "ParameterMetadata": {
-                "Name": "Exporter",
+                "Name": "DistributionMaxInstancesPerHost",
                 "Type": {
-                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
+                  "Namespace": "System",
+                  "Name": "System.Int32",
+                  "AssemblyQualifiedName": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -69701,12 +69806,28 @@
             },
             {
               "ParameterMetadata": {
-                "Name": "NetworkingConfiguration",
+                "Name": "ExecutionPlacementConstraint",
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration"
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint"
+                },
+                "ValidateNotNullOrEmpty": false
+              },
+              "Mandatory": false,
+              "Position": -2147483648,
+              "ValueFromPipeline": false,
+              "ValueFromPipelineByPropertyName": false
+            },
+            {
+              "ParameterMetadata": {
+                "Name": "Exporter",
+                "Type": {
+                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -69736,7 +69857,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69752,7 +69873,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69783,7 +69904,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69800,6 +69921,22 @@
                   "Namespace": "System.Collections",
                   "Name": "System.Collections.Hashtable",
                   "AssemblyQualifiedName": "System.Collections.Hashtable, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+                },
+                "ValidateNotNullOrEmpty": false
+              },
+              "Mandatory": false,
+              "Position": -2147483648,
+              "ValueFromPipeline": false,
+              "ValueFromPipelineByPropertyName": false
+            },
+            {
+              "ParameterMetadata": {
+                "Name": "TlsConfiguration",
+                "Type": {
+                  "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+                  "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[]",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration"
                 },
                 "ValidateNotNullOrEmpty": false
               },
@@ -69863,7 +70000,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -69879,7 +70016,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -70027,7 +70164,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -70043,7 +70180,7 @@
                 "Type": {
                   "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
                   "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[]",
-                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+                  "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep[], Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
                   "ElementType": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep"
                 },
                 "ValidateNotNullOrEmpty": false
@@ -73097,7 +73234,7 @@
     "Microsoft.Azure.Management.Monitor.Management.Models.AlertRuleResource": {
       "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
       "Name": "Microsoft.Azure.Management.Monitor.Management.Models.AlertRuleResource",
-      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.AlertRuleResource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.AlertRuleResource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "Condition": "Microsoft.Azure.Management.Monitor.Management.Models.RuleCondition",
         "Action": "Microsoft.Azure.Management.Monitor.Models.RuleAction",
@@ -73161,7 +73298,7 @@
     "Microsoft.Azure.Management.Monitor.Management.Models.RuleCondition": {
       "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
       "Name": "Microsoft.Azure.Management.Monitor.Management.Models.RuleCondition",
-      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleCondition, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleCondition, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "DataSource": "Microsoft.Azure.Management.Monitor.Management.Models.RuleDataSource"
       },
@@ -73207,7 +73344,7 @@
     "Microsoft.Azure.Management.Monitor.Management.Models.RuleDataSource": {
       "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
       "Name": "Microsoft.Azure.Management.Monitor.Management.Models.RuleDataSource",
-      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleDataSource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleDataSource, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "ResourceUri": "System.String",
         "LegacyResourceId": "System.String",
@@ -73397,7 +73534,7 @@
     "System.Collections.Generic.IList`1[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.IList`1[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction]",
-      "AssemblyQualifiedName": "System.Collections.Generic.IList`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.IList`1[[Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction"
       ]
@@ -73405,7 +73542,7 @@
     "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction": {
       "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
       "Name": "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction",
-      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.RuleAction, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Methods": [
         {
           "Name": "GetType",
@@ -73465,7 +73602,7 @@
     "Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator": {
       "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
       "Name": "Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator",
-      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.TimeAggregationOperator, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Methods": [
         {
           "Name": "HasFlag",
@@ -73557,13 +73694,13 @@
     "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]": {
       "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
       "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[]",
-      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "ElementType": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup"
     },
     "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup": {
       "Namespace": "Microsoft.Azure.Management.Monitor.Management.Models",
       "Name": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup",
-      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Management.Monitor.Management.Models.ActivityLogAlertActionGroup, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "WebhookProperties": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
         "ActionGroupId": "System.String"
@@ -73674,7 +73811,7 @@
     "System.Collections.Generic.IList`1[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.IList`1[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria]",
-      "AssemblyQualifiedName": "System.Collections.Generic.IList`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.IList`1[[Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria"
       ]
@@ -73682,7 +73819,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.IPSMultiMetricCriteria, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "CriterionType": "Microsoft.Azure.Commands.Insights.OutputClasses.CriterionType"
       }
@@ -73690,7 +73827,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.CriterionType": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.CriterionType",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.CriterionType, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.CriterionType, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Methods": [
         {
           "Name": "HasFlag",
@@ -73849,7 +73986,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSDictionaryElement, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "Content": "System.Collections.Generic.IDictionary`2[System.String,System.String]"
       },
@@ -73902,7 +74039,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataAuthorization": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataAuthorization",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataAuthorization, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataAuthorization, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "Scope": "System.String",
         "Action": "System.String",
@@ -73942,7 +74079,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataHttpRequest": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataHttpRequest",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataHttpRequest, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSEventDataHttpRequest, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "ClientId": "System.String",
         "Method": "System.String",
@@ -74249,7 +74386,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "RetentionPolicy": "Microsoft.Azure.Management.Monitor.Models.RetentionPolicy",
         "Tags": "System.Collections.Generic.IDictionary`2[System.String,System.String]",
@@ -74307,7 +74444,7 @@
     "System.Collections.ObjectModel.ReadOnlyCollection`1[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile]": {
       "Namespace": "System.Collections.ObjectModel",
       "Name": "System.Collections.ObjectModel.ReadOnlyCollection`1[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile]",
-      "AssemblyQualifiedName": "System.Collections.ObjectModel.ReadOnlyCollection`1[[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.ObjectModel.ReadOnlyCollection`1[[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile"
       ]
@@ -74328,7 +74465,7 @@
     "System.Collections.Generic.List`1[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile"
       ]
@@ -74336,7 +74473,7 @@
     "System.Collections.Generic.List`1+Enumerator[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1+Enumerator[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1+Enumerator[[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1+Enumerator[[Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile"
       ]
@@ -74344,7 +74481,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile[]": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile[]",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile[], Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "ElementType": "Microsoft.Azure.Commands.Insights.OutputClasses.PSLogProfile"
     },
     "System.Collections.Generic.IList`1[Microsoft.Azure.Management.Monitor.Models.MetricValue]": {
@@ -74951,7 +75088,7 @@
     "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension": {
       "Namespace": "Microsoft.Azure.Commands.Insights.OutputClasses",
       "Name": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension",
-      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=6.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.Commands.Insights.OutputClasses.PSMetricDimension, Microsoft.Azure.PowerShell.Cmdlets.Monitor, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "IncludeValues": "System.Collections.Generic.IList`1[System.String]",
         "ExcludeValues": "System.Collections.Generic.IList`1[System.String]",
@@ -77235,7 +77372,7 @@
     "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter"
       ]
@@ -77243,27 +77380,24 @@
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IExporter, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "SchemaRecordMap": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap]",
         "SchemaResourceMap": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap]",
         "SchemaScopeMap": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap]",
-        "CacheMaxStorageUsage": "System.Nullable`1[System.Int32]",
-        "CacheRetentionPeriod": "System.Nullable`1[System.Int32]",
-        "ConcurrencyBatchQueueSize": "System.Nullable`1[System.Int32]",
-        "ConcurrencyWorkerCount": "System.Nullable`1[System.Int32]",
+        "PersistenceMaxStorageUsage": "System.Nullable`1[System.Int32]",
+        "PersistenceRetentionPeriod": "System.Nullable`1[System.Int32]",
         "ApiDataCollectionEndpointUrl": "System.String",
         "ApiDataCollectionRule": "System.String",
         "ApiStream": "System.String",
         "Name": "System.String",
-        "TcpUrl": "System.String",
         "Type": "System.String"
       }
     },
     "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap"
       ]
@@ -77271,7 +77405,7 @@
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IRecordMap, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "From": "System.String",
         "To": "System.String"
@@ -77280,7 +77414,7 @@
     "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap"
       ]
@@ -77288,7 +77422,7 @@
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IResourceMap, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "From": "System.String",
         "To": "System.String"
@@ -77297,7 +77431,7 @@
     "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap"
       ]
@@ -77305,53 +77439,16 @@
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IScopeMap, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "From": "System.String",
         "To": "System.String"
       }
     },
-    "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration]": {
-      "Namespace": "System.Collections.Generic",
-      "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-      "GenericTypeArguments": [
-        "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration"
-      ]
-    },
-    "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration": {
-      "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-      "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingConfiguration, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-      "Properties": {
-        "Route": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute]",
-        "Host": "System.String",
-        "ExternalNetworkingMode": "System.String"
-      }
-    },
-    "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute]": {
-      "Namespace": "System.Collections.Generic",
-      "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-      "GenericTypeArguments": [
-        "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute"
-      ]
-    },
-    "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute": {
-      "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
-      "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.INetworkingRoute, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
-      "Properties": {
-        "Port": "System.Nullable`1[System.Int32]",
-        "Path": "System.String",
-        "Receiver": "System.String",
-        "Subdomain": "System.String"
-      }
-    },
     "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline"
       ]
@@ -77359,7 +77456,7 @@
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPipeline, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "Exporter": "System.Collections.Generic.List`1[System.String]",
         "Processor": "System.Collections.Generic.List`1[System.String]",
@@ -77368,10 +77465,28 @@
         "Type": "System.String"
       }
     },
+    "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint]": {
+      "Namespace": "System.Collections.Generic",
+      "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint]",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "GenericTypeArguments": [
+        "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint"
+      ]
+    },
+    "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint": {
+      "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+      "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IPlacementConstraint, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "Properties": {
+        "Value": "System.Collections.Generic.List`1[System.String]",
+        "Operator": "System.String",
+        "Capability": "System.String"
+      }
+    },
     "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor"
       ]
@@ -77379,18 +77494,19 @@
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IProcessor, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "BatchSize": "System.Nullable`1[System.Int32]",
         "BatchTimeout": "System.Nullable`1[System.Int32]",
         "Name": "System.String",
+        "TransformLanguageTransformStatement": "System.String",
         "Type": "System.String"
       }
     },
     "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver]": {
       "Namespace": "System.Collections.Generic",
       "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver]",
-      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "GenericTypeArguments": [
         "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver"
       ]
@@ -77398,26 +77514,48 @@
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.IReceiver, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
-        "JsonArrayMapperKey": "System.Collections.Generic.List`1[System.String]",
-        "UdpReadQueueLength": "System.Nullable`1[System.Int32]",
-        "DestinationFieldDestination": "System.String",
-        "DestinationFieldName": "System.String",
+        "SyslogAllowedFormat": "System.Collections.Generic.List`1[System.String]",
+        "SyslogAllowSkipPriHeader": "System.Nullable`1[System.Boolean]",
         "Name": "System.String",
         "OtlpEndpoint": "System.String",
-        "SourceFieldName": "System.String",
         "SyslogEndpoint": "System.String",
-        "SyslogProtocol": "System.String",
-        "Type": "System.String",
-        "UdpEncoding": "System.String",
-        "UdpEndpoint": "System.String"
+        "SyslogTransportProtocol": "System.String",
+        "TlsConfiguration": "System.String",
+        "Type": "System.String"
+      }
+    },
+    "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration]": {
+      "Namespace": "System.Collections.Generic",
+      "Name": "System.Collections.Generic.List`1[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration]",
+      "AssemblyQualifiedName": "System.Collections.Generic.List`1[[Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "GenericTypeArguments": [
+        "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration"
+      ]
+    },
+    "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration": {
+      "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models",
+      "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Models.ITlsConfiguration, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "Properties": {
+        "CertificateLocation": "System.String",
+        "CertificateSubLocation": "System.String",
+        "CertificateType": "System.String",
+        "ClientCaLocation": "System.String",
+        "ClientCaSubLocation": "System.String",
+        "ClientCaType": "System.String",
+        "Mode": "System.String",
+        "Name": "System.String",
+        "PrivateKeyLocation": "System.String",
+        "PrivateKeySubLocation": "System.String",
+        "PrivateKeyType": "System.String"
       }
     },
     "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep": {
       "Namespace": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime",
       "Name": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep",
-      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep, Az.PipelineGroup.private, Version=6.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+      "AssemblyQualifiedName": "Microsoft.Azure.PowerShell.Cmdlets.Monitor.PipelineGroup.Runtime.SendAsyncStep, Az.PipelineGroup.private, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
       "Properties": {
         "Target": "System.Object",
         "Method": "System.Reflection.MethodInfo"
