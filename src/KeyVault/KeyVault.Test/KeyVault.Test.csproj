@@ -13,9 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.1" />
     <PackageReference Include="Microsoft.Azure.KeyVault.WebKey" Version="3.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Update="Azure.Core" Version="1.54.0" />
     <ProjectReference Include="..\KeyVault\KeyVault.csproj" />
   </ItemGroup>
   
