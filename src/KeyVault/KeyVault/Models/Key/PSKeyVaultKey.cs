@@ -16,7 +16,6 @@ using Microsoft.Azure.Commands.KeyVault.Helpers;
 using Microsoft.Azure.KeyVault.WebKey;
 
 using System;
-using System.Linq;
 
 using KeyVaultProperties = Microsoft.Azure.Commands.KeyVault.Properties;
 using Track1Sdk = Microsoft.Azure.KeyVault.Models;
@@ -64,8 +63,11 @@ namespace Microsoft.Azure.Commands.KeyVault.Models
             // Key properties
             Key = key.Key.ToTrack1JsonWebKey();
 
-            // Quick access for key properties
-            KeySize = JwkHelper.ConvertToRSAKey(Key)?.KeySize;
+            // Quick access for key properties.
+            // Server-reported KeySize covers RSA and oct/AES (including HSM-protected
+            // keys where K/N aren't returned to the client). Null for EC, where size
+            // is expressed via CurveName instead.
+            KeySize = key.Properties.KeySize;
 
             // Key additional properties
             Attributes = new PSKeyVaultKeyAttributes(key);
